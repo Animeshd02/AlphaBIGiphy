@@ -35,9 +35,14 @@ export default function Home (){
   const [user] = useAuthState(auth);
   
   const router = useRouter();
-  const userSession = sessionStorage.getItem('user')
+  
+  // const userSession = sessionStorage.getItem('user')
 
-  if(!user && !userSession) {
+  // if(!user && !userSession) {
+  //   router.push('/sign-up');
+  // }
+
+  if(!user) {
     router.push('/sign-up');
   }
 

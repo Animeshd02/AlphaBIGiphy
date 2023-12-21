@@ -28,7 +28,7 @@ const Signin = () => {
     .then((userCredential)=> {
       setEmail('')
       setPassword('')
-      sessionStorage.setItem('user',true)
+      // sessionStorage.setItem('user',true)
       router.push('/')
 
     }).catch((error) => {
