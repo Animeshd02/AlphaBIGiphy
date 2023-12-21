@@ -19,33 +19,7 @@ import { signOut } from 'firebase/auth';
 
 
 
-// export default function Home() {
 
-//   const [user] = useAuthState(auth)
-  
-//   const router = useRouter();
-//   const userSession = sessionStorage.getItem('user')
-
-//   if(!user && !userSession) {
-//     router.push('/sign-up');
-//   }
-
-//   return (
-//     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    
-//     <button  className="w-full bg-blue-500 text-white p-2 rounded"
-//     onClick = {() => {  signOut(auth)
-//     sessionStorage.removeItem('user')
-//      }}
-//      >
-//      Log Out
-//     </button>
-    
-
-      
-//     </main>
-//   )
-// }
 
 
 export default function Home (){

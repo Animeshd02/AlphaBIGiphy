@@ -26,7 +26,6 @@ const Signin = () => {
     e.preventDefault();
     signInWithEmailAndPassword(auth,email,password)
     .then((userCredential)=> {
-    //   setSuccessMsg('Logged In successfully, YOU will now be redirected to HOME page')
       setEmail('')
       setPassword('')
       sessionStorage.setItem('user',true)

@@ -46,7 +46,7 @@ function Header(){
         <div style = {styles.header}>
         <Image style ={styles.im} src = {logo2}/>
          
-         <button  className="w-full bg-blue-500 text-white p-2 rounded"
+         <button  className=" bg-blue-500 text-white p-2 rounded"
     onClick = {() => {  signOut(auth)
     sessionStorage.removeItem('user')
     
